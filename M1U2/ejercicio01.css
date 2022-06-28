@@ -1,0 +1,40 @@
+h1 {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: midnightblue;
+}
+
+h3 {
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: midnightblue;
+    border-radius: 0px 200px 200px 200px;
+-webkit-border-radius: 0px 200px 200px 200px;
+-moz-border-radius: 0px 200px 200px 200px;
+border: 5px solid rgba(255,232,0,0.96);
+box-shadow: 11px 12px 30px 8px rgba(0,0,0,0.69);
+-webkit-box-shadow: 11px 12px 30px 8px rgba(0,0,0,0.69);
+-moz-box-shadow: 11px 12px 30px 8px rgba(0,0,0,0.69);
+}
+p{color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
