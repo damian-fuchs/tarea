@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Vivero.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Vivero</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Novedades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conocenos</a>
+                    </li>
+                    </ui>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!--comienzo home-->
+        <div id="home" class="row align-items-center hero">
+            <div class="col-lg-3 offset-lg-2">
+                <p>Bajada</p>
+                <h1>Titulo Principal</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sequi commodi dolor fugiat dolorem
+                    officia ex vero, voluptate perspiciatis vitae! Repudiandae nihil sapiente sed odio veritatis dolore
+                    praesentium, provident officiis.</p>
+            </div>
+        </div>
+        <!--fin home-->
+        <!--inicio novedades-->
+        <div class="row my-3">
+            <div id="novedades" class="col-md-5 offset-md-2">
+                <h2>Novedades</h2>
+                <ul class="lista-novedades">
+                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/icono.jpg">
+                            Nuevos Productos 1</a></li>
+                    <li><a href="#"><img src="img/icono.jpg"> Nuevos Productos 2</a></li>
+                    <li><a href="#"><img src="img/icono.jpg"> Nuevos Productos 3</a></li>
+                    <li><a href="#"><img src="img/icono.jpg"> Nuevos Productos 4</a></li>
+                    <li><a href="#"><img src="img/icono.jpg"> Nuevos Productos 5</a></li>
+
+                </ul>
+            </div>
+            <!--inicio testimonios-->
+            <div class="col-md-3 my-3">
+                <div class="rounded py-5 testimonios">
+                    <h2 class="text-center">Testimonios</h2>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonio">
+                                    <h5>"Excelente atencion"</h5>
+                                    <p>Jose, Villa Ballester</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonio">
+                                    <h5>"Gran atencion"</h5>
+                                    <p>Jose, Villa Ballester</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonio">
+                                    <h5>"Muy buenaatencion"</h5>
+                                    <p>Jose, Villa Ballester</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--fin de testimonios-->
+        </div>
+        <!--fin novedades-->
+        <!--inicio modal-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Nuevo Producto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Este es el nuevo producto</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut unde, corrupti rem voluptas
+                            quibusdam expedita saepe eligendi! Iste sint, rerum esse corrupti.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin modal-->
+    </div>
+    <footer>
+        <p class="text-center">Diseñado por: Damian Fuchs 2022 </p>
+    </footer>
+</body>
+
+</html>
